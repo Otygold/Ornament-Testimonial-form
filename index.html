@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="description" content="An Evaluation form website, GCCF Testimonial form, GCCF">
+    <meta name="author" content="Olowe H. Othniel">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Ornament Real Estate - Testimonial Form</title>
+  </head>
+  <link
+    rel="stylesheet"
+    href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
+  />
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+  <link rel="stylesheet" href="style.css" />
+  <body>
+    <div class="container">
+      <h1 class="font-weight-bold" data-aos="zoom-in" data-aos-duration="1000">Ornament Real Estate Agency</h1>
+      <div class="row">
+        <hr class="bg-white" data-aos="fade-out" data-aos-duration="1000"/>
+        <div class="col-md-2"></div>
+        <div class="col-md-8">
+          <h6 class="text-center" data-aos="zoom-out" data-aos-duration="1000">
+            Share with others how Ornament Real Estae Agency has been of better service to you.
+            You might be saving someone from being duped elsewhere.
+          </h6>
+        </div>
+      </div>
+
+      <form
+        action="mailto:oloweothniel09@gmail.com"
+        method="post"
+        enctype="text/plain"
+        data-aos="fade-down"
+        data-aos-easing="linear"
+        data-aos-duration="1000"
+      >
+        <div class="row">
+          <div class="col-md-2"></div>
+          <label class="col-md-4"
+            >Full Name*<br />
+            <input
+              type="text"
+              name="yourName"
+              id="text"
+              required=""
+              placeholder="Issac Woods"
+            />
+          </label>
+
+          <label class="col-md-4"
+            >Email*<br />
+            <input
+              type="email"
+              name="yourEmail"
+              id="text"
+              required=""
+              placeholder="issacwoods@gmail.com*"
+            />
+          </label>
+        </div>
+
+        <div class="row">
+          <div class="col-md-2"></div>
+          <label class="col-md-4"
+            >Birthday*<br />
+            <input
+              type="text"
+              name="yourBdate"
+              id="text"
+              required=""
+              placeholder="08-Aug"
+            />
+          </label>
+
+          <label class="col-md-4"
+            >Phone*<br />
+            <input
+              type="number"
+              name="yourTelno"
+              id="text"
+              required=""
+              placeholder="+234-706521..."
+            />
+          </label>
+        </div>
+
+        <div class="row">
+          <div class="col-md-2"></div>
+          <label class="col-md-8"
+            >Gender*<br />
+            <label class="radio-inline"
+              ><input
+                type="radio"
+                name="gender"
+                value="Male"
+              />&nbsp;Male</label
+            >
+            <label class="radio-inline"
+              ><input
+                type="radio"
+                name="gender"
+                value="Female"
+              />&nbsp;Female</label
+            >
+            <label class="radio-inline"
+              ><input
+                type="radio"
+                name="gender"
+                value="Female"
+              />&nbsp;Others</label
+            >
+          </label>
+        </div>
+
+        <div class="row">
+          <div class="col-md-2"></div>
+          <label class="col-md-8"
+            >What do you have to say about us<br />
+            <textarea
+              id="message"
+              name="yourTestimony"
+              required=""
+              placeholder="Write your major testimony here"
+              cols="48"
+              rows="5"
+            >
+            </textarea>
+          </label>
+        </div>
+
+        <div class="row">
+          <div class="col-md-2"></div>
+          <label class="col-md-8"
+            >Would you refer Ornament to other people? How many stars do you rate our service (Max: 5 stars)<br />
+            <textarea
+              id="message"
+              name="yourAdvice"
+              required=""
+              cols="48"
+              rows="5"
+            >
+            </textarea>
+          </label>
+        </div>
+
+        <div class="row">
+          <div class="col-md-2"></div>
+          <button
+            class="btn btn-primary"
+            type="submit"
+            style="width: 60%; position: absolute; margin-left: 20%;"
+          >
+            Send Via Email
+          </button>
+        </div>
+      </form>
+    </div>
+
+    <footer>
+    <p>&copy <a href="https://wa.me/+2348100220704">Otycodes Tech 2023</a></p>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
+  </body>
+</html>
